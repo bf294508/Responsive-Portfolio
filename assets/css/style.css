@@ -142,6 +142,10 @@ body {
     width: 274px;
     margin: 20px 0 25px;
     overflow: auto;
+    border: 2px solid silver;
+    border-radius: 5px;
+    text-align: center;
+    
   }
   
   .work:nth-child(even) {
@@ -155,7 +159,7 @@ body {
   }
   
   .work h3 {
-    position: absolute;
+    /* position: absolute; */
     bottom: 20px;
     width: 100%;
     padding: 15px;
@@ -563,4 +567,5 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
+  
 }
